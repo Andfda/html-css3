@@ -1,0 +1,43 @@
+body > div{
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px; 
+    width: 200px; 
+}
+div:hover{
+    background-color: yellow;
+}
+
+span:hover{
+    color: red;
+}
+
+span > p {
+    display: none;
+}
+
+span:hover > p {
+    display: block;
+    color: blueviolet;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+}
+a:active{
+    color: bisque;
+}
+
+
+a::after{
+    content: "[link]";
+}

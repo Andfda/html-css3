@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Respansivel</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p> Esse site possui imagens que se adaptam ao tamanho da tela computador/tv, tablet e celular.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/image-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/image-m.png" type="image/png">
+        <img src="Imagens/image-g.png" alt="Imagem Grande">
+    </picture>
+<h1> Audio no Site </h1>
+<p>O site tocará a musica que marcou uma etapa da minha vida.</p>
+<audio preload="metadata" controls>
+    <source src="Audio/50 Cent-Heat.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<h1>Vídeo no Site</h1>
+<p>O site vai ter videos de 2 maneiras </p>
+<ol>
+<li>Link interno (pesado)</li>
+<li>Link externo (leve)</li>
+</ol>
+<video width=500px heigth="315" poster="Imagens/image-p.png" src="Video/os-b-basketball.mp4.mp4" type="video/mp4"controls> </video><br>
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/ZsI0BaWLt8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+
+</html>
