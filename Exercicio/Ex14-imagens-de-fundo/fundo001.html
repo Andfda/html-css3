@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Teste De Imagem de Fundo </title>
+    <style>
+        .quadrado{
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 2px;
+            border-radius: 5px;
+            }
+            
+            #cor{
+                background-color: #0ad6f180;
+            }
+            #cor:hover{
+                background-color:transparent;
+
+            }
+
+            #degrade{
+                background-image: linear-gradient( to bottom, yellow, red);
+                        }
+            #image{
+                background-image: url('imagens/pattern001.png');
+            }
+
+            body{
+                background-image: url('imagens/wallpaper001.jpg');
+
+            }
+    </style>
+</head>
+
+
+<body>
+    <div class="quadrado" id="cor"></div>
+    <div class="quadrado" id="degrade"></div>
+    <div class="quadrado" id="image"></div>
+
+</body>
+</html>
